@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "ap-south-1",
+            "eventTime": "2024-03-29T03:51:32.174Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "A2COG6X2NAHPUT"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "103.105.103.246"
+            },
+            "responseElements": {
+                "x-amz-request-id": "79Z69B4BZSTVQWB2",
+                "x-amz-id-2": "736NCr2fqTnI0BOez0/utHpUhBYOhe7G/N/rYl/nuZm9v+mOnqdgbrw/gW5GesNY1T1vtn7ZZkLan6U7WMwljeES7v643IOz"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "speechtotext",
+                "bucket": {
+                    "name": "speechtotextbuc",
+                    "ownerIdentity": {
+                        "principalId": "A2COG6X2NAHPUT"
+                    },
+                    "arn": "arn:aws:s3:::speechtotextbuc"
+                },
+                "object": {
+                    "key": "speech.mp3",
+                    "size": 11847213,
+                    "eTag": "9d859069c4977fce57cc961e977f2709",
+                    "sequencer": "0066063AC3BDE19CBA"
+                }
+            }
+        }
+    ]
+}
